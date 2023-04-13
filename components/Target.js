@@ -1,4 +1,4 @@
-AFRAME.registerComponent("target-coin", {
+AFRAME.registerComponent("target-ring", {
   init: function () {
     for (var i = 1; i <= 20; i++) {
       var id = `ring${i}`;
