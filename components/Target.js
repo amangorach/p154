@@ -20,7 +20,7 @@ AFRAME.registerComponent("target-ring", {
 
     ringEl.setAttribute("id", id);
     ringEl.setAttribute("position", position);
-    ringEl.setAttribute("scale", { x: 25, y: 25, z: 25 });
+    ringEl.setAttribute("scale", { x: 0.01, y: 0.01, z: 0.01 });
     ringEl.setAttribute("gltf-model", "./assets/bit_coin/scene.gltf");
     ringEl.setAttribute("animation-mixer", {})
 
